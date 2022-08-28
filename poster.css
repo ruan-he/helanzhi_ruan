@@ -11,8 +11,12 @@ body {
 
 body {
   overflow-x: hidden;
-  background: linear-gradient(to right, #dcbabf, #92bbcb);
   overflow-y: scroll;
+  background-image: url(https://raw.githubusercontent.com/ruan-he/photos/main/posterbackground.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  opacity: 1;
 }
 
 .body::-webkit-scrollbar {
