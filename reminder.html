@@ -11,12 +11,16 @@
     />
     <link rel="stylesheet" href="./reminder.css" />
     <title>要做的事</title>
+    <link
+      rel="shortcut icon"
+      href="https://raw.githubusercontent.com/ruan-he/photos/main/logo.ico"
+    />
   </head>
 
   <body>
     <div class="box">
       <input placeholder="what to do?" id="input" />
-      <span id="button" onclick="change()">确认</span>
+      <span id="button" onclick="change()">yes</span>
     </div>
 
     <script>
@@ -28,14 +32,14 @@
 
         if (myEvent) {
           myEvent = false;
-          button.innerText = "确认";
+          button.innerText = "yes";
           input.style.borderBottomColor = "#fff";
           input.value = "";
           input.readOnly = false;
           window.localStorage.removeItem("event");
         } else {
           myEvent = true;
-          button.innerText = "删除";
+          button.innerText = "delete";
           input.style.borderBottomColor = "transparent";
           input.readOnly = true;
           window.localStorage.setItem("event", input.value);
