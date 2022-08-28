@@ -9,8 +9,11 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  /* 径向渐变背景 */
-  background: linear-gradient(to right, #827778, #62808b);
+  background-image: url(https://raw.githubusercontent.com/ruan-he/photos/main/showbcgi.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  opacity: 1;
 }
 .container {
   /* 弹性布局 默认水平排列 */
