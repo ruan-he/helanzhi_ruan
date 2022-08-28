@@ -1,76 +1,69 @@
+* {
+  width: 100%;
+  height: 100%;
+}
+html {
+  width: 100%;
+  height: 100%;
+}
 body {
-  margin: 0;
-  height: 100vh;
-  background-color: #f3e3ed;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  background-image: url(https://raw.githubusercontent.com/ruan-he/photos/main/10.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  opacity: 1;
+}
+.background {
+  display: flex;
+}
+.mainbox {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  width: 360px;
+  height: 480px;
+  position: absolute;
+  top: 0;
+  left: 0px;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  background: #ffffff2f;
+  text-align: center;
+  border-radius: 10px;
+  overflow: scroll;
 }
-.avatar-box {
-  width: 100%;
-  height: 160px;
-  display: flex;
-  align-items: center;
-  justify-content: end;
-}
-.avatar-box img {
-  border-radius: 50%;
-  width: 80px;
-  height: 80px;
-}
-.body-box {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  justify-content: flex-start;
-  align-items: flex-start;
-
-  height: 90vh;
-  max-width: 600px;
-  border-radius: 40px;
-
-  background-color: #dabbcb;
-
-  box-shadow: rgb(0 0 0 / 20%) 0px 2px 1px -1px,
-    rgb(0 0 0 / 14%) 0px 1px 1px 0px, rgb(0 0 0 / 12%) 0px 1px 3px 0px;
-  max-width: 700px;
-  min-height: 70vh;
-  min-height: auto;
-  width: 95%;
-  overflow-y: scroll;
-}
-
-.body-box::-webkit-scrollbar {
+.mainbox::-webkit-scrollbar {
   display: none;
 }
-.body-box a {
-  text-decoration: none;
-}
-.button-box {
-  display: flex;
-  margin: 20px;
-  width: 100px;
-  height: 75px;
 
-  background-color: #ed8d72;
-  border-radius: 20px;
-  box-shadow: rgb(0 0 0 / 20%) 0px 2px 1px -1px,
-    rgb(0 0 0 / 14%) 0px 1px 1px 0px, rgb(0 0 0 / 12%) 0px 1px 3px 0px;
+h1 {
+  height: 5px;
+  color: antiquewhite;
+  margin-top: 5px;
+  padding: 0%;
+  text-shadow: 3px 3px 2px #0000001a;
+  text-align: center;
 }
-.body-box p {
-  width: 100px;
-  height: 100px;
-  color: #8e6759;
+a {
+  position: relative;
+  top: 30px;
+  width: 200px;
+  height: 160px;
+  margin-bottom: 5px;
+  background: #ffffff06;
+  text-decoration: none;
+  border-radius: 10px;
+}
+p {
+  color: #cba69d;
   font-family: _GB2312 KaiTi_GB2312;
   font-size: 20px;
   font-weight: bold;
   text-shadow: 3px 3px 2px #0000001a;
   text-align: center;
-}
-
-.declaration {
-  text-align: center;
-  padding: 40px;
-  font-size: 4px;
 }
