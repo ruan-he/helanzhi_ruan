@@ -3,21 +3,21 @@
   padding: 0;
 }
 body {
-  /* 100%窗口高度 */
-  height: 100vh;
-  /* 弹性布局 水平+垂直居中 */
+  height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
   background-image: url(https://raw.githubusercontent.com/ruan-he/photos/main/showbcgi.png);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
   opacity: 1;
 }
-.container {
-  /* 弹性布局 默认水平排列 */
+.container-main {
   display: flex;
+  margin-top: 20px;
+  margin-bottom: 30px;
   width: 1000vw;
   max-width: 1500px;
   height: 700px;
@@ -44,4 +44,59 @@ body {
   flex: 1;
   margin: 0;
   border-radius: 40px;
+}
+.container1 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.photo-box1 {
+  width: 750px;
+  height: 350px;
+  margin: 2px;
+  justify-content: center;
+  align-items: center;
+}
+.container2 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.photo-box2 {
+  margin: 2px;
+  width: 350px;
+  height: 750px;
+}
+.container3 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+#s8 {
+  margin: 2px;
+  width: 1000px;
+  height: 750px;
+}
+#s29 {
+  margin: 2px;
+  width: 421.7px;
+  height: 750px;
+}
+#s30 {
+  margin: 2px;
+  width: 562.5px;
+  height: 750px;
+}
+#s31 {
+  margin: 2px;
+  width: 562.5px;
+  height: 750px;
+}
+img {
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 20px;
 }
