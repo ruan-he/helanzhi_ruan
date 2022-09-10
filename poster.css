@@ -73,7 +73,7 @@ body {
   position: absolute;
   perspective: 1000px;
   transition: 0.5s ease-in-out;
-  background-color: #fff;
+  background-image: url(https://raw.githubusercontent.com/ruan-he/photos/main/PosterForNewMember);
 }
 .mask {
   width: 1050px;
